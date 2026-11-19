@@ -1,0 +1,46 @@
+Gerarion Universal Standard (GUS)
+Copyright (c) 2026 verared contributors
+Original calendar, Nuvid language and research by Gerardo Loyola (github.com/geroiloyola)
+Licencias: código MIT OR Apache-2.0 (ver LICENSE); documentación CC-BY-4.0;
+vectores CC0-1.0 — tabla completa en LICENSING.md; textos en LICENSES/.
+
+----------------------------------------------------------------------
+Componentes de terceros
+----------------------------------------------------------------------
+
+slh-dsa (https://pypi.org/project/slh-dsa/)
+  Versión: 0.2.5 (dependencia OPCIONAL; pip install 'gerarion[slh]')
+  Licencia: LGPL-3.0-or-later
+  Uso: adaptador SLH-DSA (FIPS 205) para sellos de producción.
+  Nota: NO está incluido ni vendorizado en este repositorio; se instala
+  como paquete separado por el usuario. El código fuente de este
+  repositorio (MIT OR Apache-2.0) no redistribuye ningún fragmento suyo.
+
+cryptography (https://pypi.org/project/cryptography/)
+  Versión: >= 47 (dependencia OPCIONAL; pip install 'gerarion[pqc]')
+  Licencia: Apache-2.0 OR BSD-3-Clause
+  Uso: adaptador ML-DSA (FIPS 204) para sellos de producción (firma pura
+  con contexto GUS2-TS).
+  Nota: NO está incluido ni vendorizado en este repositorio; se instala
+  como paquete separado por el usuario. El código fuente de este
+  repositorio (MIT OR Apache-2.0) no redistribuye ningún fragmento suyo.
+
+Atkinson Hyperlegible (fuentes tipográficas)
+  Archivos: web/fonts/AtkinsonHyperlegible-{Regular,Bold,Italic,BoldItalic}.woff2
+  Autor: Braille Institute of America, Inc. (type.brailleinstitute.org)
+  Licencia: SIL Open Font License 1.1 — texto completo vendorizado en
+  web/fonts/OFL.txt y replicado en LICENSES/OFL-1.1.txt
+  Estado: VENDORIZADO en web/fonts/ (4 archivos .woff2, ~89 KB en total).
+
+GitHub Actions (solo CI/CD; se ejecutan en runners de GitHub, no se
+  distribuyen con el paquete)
+  actions/checkout, actions/setup-python, actions/setup-node,
+  actions/upload-pages-artifact, actions/deploy-pages,
+  actions/upload-artifact, github/codeql-action
+  Licencia: MIT (Microsoft / GitHub)
+  Estado: ancladas por SHA completo upstream (regla del repo).
+
+Otras dependencias del núcleo (Python, JS, C): standard library o código
+propio del repositorio; el kernel JS no tiene ninguna dependencia npm
+(runtime ni dev). Inventario machine-readable: sbom.cdx.json
+(CycloneDX 1.5).

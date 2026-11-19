@@ -1,0 +1,25 @@
+Licenciamiento dual del código: MIT OR Apache-2.0
+==========================================
+
+Este proyecto distribuye su CÓDIGO bajo la doble licencia
+MIT OR Apache-2.0 (SPDX-License-Identifier: MIT OR Apache-2.0): puedes
+usarlo, a tu elección, bajo los términos de la licencia MIT o de la
+Apache License 2.0. Esta doble licencia PRESERVA ÍNTEGRAMENTE los derechos
+MIT ya otorgados en releases previos (la opción MIT sigue disponible con
+los mismos términos de siempre).
+
+Copia completa de ambas opciones:
+
+- LICENSES/MIT.txt          (MIT)
+- LICENSES/Apache-2.0.txt   (Apache-2.0)
+
+Otras capas del repositorio NO se rigen por este archivo:
+
+- Documentación y especificación (docs/**, README*.md, GOVERNANCE.md,
+  SECURITY.md, CHANGELOG.md, CONTRIBUTING.md):  CC-BY-4.0
+- Vectores de prueba de datos (vectors/**/*.json):  CC0-1.0
+- Fuentes tipográficas (web/fonts/):  OFL-1.1 (c) Braille Institute of
+  America, Inc. — incluida en LICENSES/OFL-1.1.txt
+
+La tabla completa por capa, con el detalle de terceros, vive en
+LICENSING.md.
