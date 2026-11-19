@@ -1,6 +1,6 @@
 version = 1
 
-# Export generado por tools/export_module.py (fuente: verared/gerarion v3.2.2).
+# Export generado por tools/export_module.py (fuente: verared/gerarion v3.3.0).
 # Cobertura completa del paquete (precedencia override).
 
 # docs — CC-BY-4.0
@@ -15,6 +15,6 @@ SPDX-FileCopyrightText = "2026 verared contributors"
 
 [[annotations]]
 precedence = "override"
-path = ["EXPORT-MANIFEST.json"]
+path = ["EXPORT-MANIFEST.json*"]
 SPDX-License-Identifier = "CC0-1.0"
 SPDX-FileCopyrightText = "2026 verared contributors"
