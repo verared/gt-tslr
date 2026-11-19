@@ -5,7 +5,7 @@
   "maturity": "experimental",
   "source_repo": "verared/gerarion",
   "source_tag": "v3.3.0",
-  "source_commit": "3902691eab4bf55815b5419064e7471dcc0da240",
+  "source_commit": "7d4bf95f29956888f6f19590ae2b024125828d12",
   "dependencies": {
     "gt-core": ">=3.2.0,<4.0.0"
   },
