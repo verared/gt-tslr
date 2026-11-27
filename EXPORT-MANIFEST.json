@@ -1,11 +1,11 @@
 {
   "schema": "gerarion-export-manifest/1",
   "module": "gt-tslr",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "maturity": "experimental",
   "source_repo": "verared/gerarion",
-  "source_tag": "v3.3.0",
-  "source_commit": "7d4bf95f29956888f6f19590ae2b024125828d12",
+  "source_tag": "v3.4.0",
+  "source_commit": "277f99118e23388fd84afecbd47a4f92805528e5",
   "dependencies": {
     "gt-core": ">=3.2.0,<4.0.0"
   },
@@ -14,9 +14,9 @@
     "LICENSES/CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
     "LICENSES/CC0-1.0.txt": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
     "NOTICE": "6af3a8bb6fe83f1b2d2f3d76528ab1f2b8e56da842c1de81673385821513e835",
-    "README.es.md": "d6d7b602277bf5519773753c81543ad7eda95488b9ac75dd690db71bec99ba18",
-    "README.md": "bd12a54ccefd519dbb6243e74928a1183200123f76f01705f634bfc0d436dc98",
-    "REUSE.toml": "b8766de542c03814990d0173f294c5f89742fea874300745adda5d2a095922b0",
+    "README.es.md": "8570a976540a794f543a5152863578206c5bbceb557fb52627d13c6fc6a40d3c",
+    "README.md": "53f1a66c43e1eea31efc2c3255210436dd161d2fae0d04b3ecc4cfc888a77bf0",
+    "REUSE.toml": "76c7088df9b39a0973758998f2a0ade9ab77165e0beaae222319e031fd7488dc",
     "docs/specs/TSLR.en.md": "28d154ec25a42d7724c09cd2153cd0c94b01478cf1652af34adcb9c06721ea8b",
     "docs/specs/TSLR.es.md": "be5760a971a2b76d9b591799f8a3d1c57124a5b456035302dadfc59acb9b01d6",
     "src/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
